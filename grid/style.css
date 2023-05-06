@@ -1,0 +1,11 @@
+.child{width: 10vh;
+
+align-items: center;
+background-color: red;}
+
+.container{
+    display: grid;
+
+    height: 100vh;
+    gap: 20px;
+}

@@ -1,0 +1,12 @@
+th,td{ 
+border: 2px solid  rgb(6, 237, 33); 
+}
+table{
+border: 2px solid green;
+box-shadow: 2px 3px 4px 1px green;
+}
+button{
+background-color: red;
+color: white;
+cursor: pointer;
+}

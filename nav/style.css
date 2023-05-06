@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg);
+background-repeat: no-repeat;
+background-size:cover ;}
+
+.a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 11vh;
+  background-color: transparent;
+  justify-content: space-around;
+}
+
+* {
+  color: white;
+}
+span {
+  margin: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+span:hover {
+  color: red;
+}
+.icon:hover{color: blue;}
+
+

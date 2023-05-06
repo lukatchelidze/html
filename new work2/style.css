@@ -1,0 +1,38 @@
+*{margin: 0;
+padding: 0;
+color: white;
+}
+
+body{background-color: rgb(31, 31, 73);}
+
+.main{width: 100%;
+    height: 100vh;
+    display: flex;
+    }
+
+    .a{
+      width: 100%;
+     height: 10vh;
+     background-color: transparent;
+     display: flex;
+     
+     justify-content: space-evenly;
+    }
+
+    ul{list-style-type: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        color: white;
+        }
+        .b{display: flex;}
+        .c{margin-top: 20px;
+        }
+        .d{margin-top: 13px;}
+        
+     h5{margin-top: 150px;
+    margin-left:-850px ;}
+    .t{margin-top: 30px;
+    margin-left: -910px;}
+        

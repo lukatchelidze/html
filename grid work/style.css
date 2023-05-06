@@ -1,0 +1,56 @@
+body{margin: 0;
+padding: 0;
+height: 100%;
+background-image: url(https://www.fundingcircle.com/us/resources/wp-content/uploads/2019/12/photo-1449198063792-7d754d6f3c80-1.jpg);}
+img{width: 60px;
+    height: 60px;
+    border-radius:  50%;
+    background-repeat: no-repeat;
+background-size:cover ;
+}
+.a {
+    width: 97%;
+    display: flex;
+    align-items: center;
+    height: 11vh;
+    background-color: transparent;
+    justify-content: space-around;
+  }
+
+  span {
+  margin: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.b{width: 2%;
+margin-top: -20;
+display: grid;
+height: 694px;
+grid-template-rows: auto auto auto;
+background-color: #000000;
+padding: 10px;
+justify-content: space-around;
+display: grid;
+margin-top: -80px;
+}
+
+.nav2{margin-top: 530px;
+}
+
+.c{margin-left: 200px;
+margin-top: -400px;
+color: white;
+display: flex;
+}
+
+.d{color: white;}
+
+.h{margin-left: 120px;}
+
+.bu > button{
+border-radius: 20px;
+height: 30px;
+width: 140px;
+color: white;
+cursor: pointer;
+}
