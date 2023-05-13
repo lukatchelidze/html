@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://www.wallpaperflare.com/static/965/714/472/tree-sunlight-background-relaxation-wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 7vh;
+}
+nav{
+    height: 7vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav > h1{
+    color: gold;
+    font-size: 2.5rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.nav_search > input{
+    border: 1px solid gold;
+    width: 16rem;
+    background-color: transparent;
+}
+
+.nav_search > button{
+height: 4.5vh;
+border: none;
+background-color: gold;
+border: none;
+width: 60px;
+
+}
+.nav_search{margin: 0;
+display: flex;
+align-items: center;
+margin: 0;}
+
+section{width: 100%;
+height: calc(100vh - 100px);
+display: flex;
+align-items: center;
+justify-content: space-around;}
+
+.introduction_conatiner{width: 300px;}
+
+.introduction_conatiner > h1{color: white;
+font-size: 3rem;}
+.introduction_conatiner > p{color: white;}
+.introduction_container > button{width: 150px;
+height: 5vh;
+border: none;
+border-radius: 10px;
+background-color: gold;
+color: darkblue;
+cursor: pointer;
+margin-top: 20px;
+}
+
+form{width: 280px;
+background-color: black;
+padding: 20px;
+
+}
+
+.form_intro{
+    background-color: white;
+color: gold;
+height: 5vh;
+text-align: center;
+border-radius: 15px;
+}
+form > input{border: none;
+background: transparent;
+border-bottom: 2px solid gold;
+color: white;
+display: block;
+width: 100%;
+height: 5vh;
+margin-top: 10px;}
+form > input::placeholder{color: white;}
+form > input:focus{outline: none;}
+
+form > button{width: 80%;
+height: 5vh;
+background-color: gold;
+color: darkblue;
+font-size: 18px;
+background-color: 18px;}
+
+.links_container{display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 20px;
+}
+.links_container > a{color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+.icons_container{gap: 16px;
+display: flex;}
+
+.icons_container > i{color: white;}
